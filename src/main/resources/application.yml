@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/job_app
+    username:
+    password:
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      format_sql: true
+      check_nullability: true
+
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+
